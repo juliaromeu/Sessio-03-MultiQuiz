@@ -63,7 +63,7 @@ public class QuizActivity extends AppCompatActivity {
                         else incorrectas++;
                     }
                     String resultado =
-                            String.format("Correctas: %d -- Incorrectas: %d; correctas, incorrectas");
+                            String.format("Correctas: %d -- Incorrectas: %d", correctas, incorrectas);
 
                     Toast.makeText(QuizActivity.this, resultado, Toast.LENGTH_LONG).show();
                     finish();
